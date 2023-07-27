@@ -18,7 +18,7 @@ if(!empty($name) && !empty($email) && !empty($number) && !empty($address)){
      
     if($con->query($sql) == TRUE){
   move_uploaded_file($tempfile,$folder);
-    echo "student save successfully";
+    echo "Student Save Successfully";
     
     }
     else{

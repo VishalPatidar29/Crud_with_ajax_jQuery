@@ -1,0 +1,10 @@
+td{
+    resize: both;
+    overflow: auto;
+   
+   }
+   .error{
+       color: red;
+       font-size: smaller;
+       
+       }

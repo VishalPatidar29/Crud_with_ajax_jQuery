@@ -12,6 +12,7 @@ $folder = "image/".$filename;
 
 
 
+
 if(!empty($name) && !empty($email) && !empty($number) && !empty($address) && !empty($filename)){
 
   
@@ -27,8 +28,9 @@ if(!empty($name) && !empty($email) && !empty($number) && !empty($address) && !em
         }
     
     }
+    
     else{
         echo 0;
     }
-    
+
 ?>
